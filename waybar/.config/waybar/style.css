@@ -47,7 +47,9 @@ window#waybar.hidden {
 }
 
 #workspaces button.focused {
-  background-color: transparent;
+  background-color: red;
+  color: #fff;
+  border-radius: 4px;
 }
 #workspace button.hover {
   background-color: transparent;

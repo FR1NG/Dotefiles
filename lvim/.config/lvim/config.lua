@@ -8,6 +8,7 @@ lvim.keys.normal_mode["<S-h>"] = ":BufferLineCyclePrev<CR>"
 -- user plugins
 lvim.plugins = {
   { "lunarvim/colorschemes" },
+  {"iamcco/markdown-preview.nvim"},
   {'pbondoer/vim-42header'},
   {
     "folke/todo-comments.nvim",

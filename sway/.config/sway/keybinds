@@ -25,6 +25,7 @@ bindsym --no-repeat {
   $mod+b splith
   $mod+v splitv
   $mod+Alt+q exec qutebrowser
+  $mod+Alt+s exec $snaparea
 }
 # Move your focus around
 bindsym --no-repeat {

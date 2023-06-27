@@ -55,6 +55,10 @@ bindsym --no-repeat {
   $mod+Shift+space floating toggle
 }
 
+set $exmonitor "HDMI-A-1"
+workspace 6 output $exmonitor
+workspace 2 output $exmonitor
+
 # Switch to workspace
 bindsym --no-repeat {
   $mod+1 workspace number 1

@@ -45,7 +45,8 @@ default_border pixel 4
 # xwayland disable
 smart_gaps off
 gaps inner 5
-
+# locking when the lid closed
+bindswitch lid:off  exec 'swaylock -f'
 # Cursor
 seat * {
   hide_cursor when-typing enable

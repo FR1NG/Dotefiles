@@ -41,7 +41,7 @@ font pango:$font_name $font_size
 default_floating_border normal
 output * bg $wallpaper fill
 hide_edge_borders smart
-default_border pixel 2
+default_border pixel 4
 # xwayland disable
 smart_gaps off
 gaps inner 5

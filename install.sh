@@ -39,7 +39,7 @@ PACKAGES=("sway" "swaybar" "foot" "lf"\
   "nvim" "alacritty" "blueman-manager" "fzf" \
   "swaylock" "qutebrowser" "wofi" "mvp" "spotify-player" \
   "axel" "slurp" "stow" "lsd" "zsh" "wl-clipbord" \
-  "swaydl" "wlogout" "git")
+  "swaydl" "wlogout" "git" "ripgrep" "nodejs" "npm")
 
 INSTALL_ALL=1
 

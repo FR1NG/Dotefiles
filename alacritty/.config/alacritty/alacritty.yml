@@ -106,35 +106,35 @@ font:
     #
     # Default:
     #   - (macOS) Menlo
-    #   - (Linux/BSD) monospace
+    #   - (Linux/BSD) Iosevka Nerd Font
     #   - (Windows) Consolas
-    family: monospace
+    family: Iosevka Nerd Font
     style: Regular
 
   # Bold font face
   bold:
-    family: monospace
+    family: Iosevka Nerd Font
     style: Bold
 
   # Italic font face
   italic:
-    family: monospace
+    family: Iosevka Nerd Font
     style: Italic
 
   # Bold italic font face
   bold_italic:
-    family: monospace
+    family: Iosevka Nerd Font
     style: Bold Italic
 
   # Point size
-  size: 12
+  size: 15
 
 draw_bold_text_with_bright_colors: true
 
 selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
   save_to_clipboard: true
-  window.dynamic_title: true
+  # window.dynamic_title: true
 
 cursor:
   style: Beam
@@ -162,7 +162,7 @@ hints:
   launcher:
     program: xdg-open
 
-  modifiers: None
+  # modifiers: None
 
 mouse_bindings:
   - { mouse: Middle, action: PasteSelection }
